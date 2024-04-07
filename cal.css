@@ -39,11 +39,14 @@ header {
   padding: 40px 20px 5px 10px;
   width: 400px;
   border-radius: 2rem;
+  border: #000000 solid 10px;
 }
 .numbers {
   margin: auto;
   width: 200px;
-  box-shadow: yellow 5px;
+  /* box-shadow: yellow 5px 2px 3px; */
+  
+  
 }
 
 .button {
@@ -56,14 +59,39 @@ header {
   font-weight: bold;
 }
 
+.button[value="C"]{
+    color: red;
+    margin: 50px;
+    width: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
 
-.right-container{ 
+
+.aside{ 
     color: #f81919;
-    background-color: #ffffff;
     
-    
-    
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: flex-end;
 
+}
+
+
+.right-container{
+    width: 20px;
+    height: 200px;
+}
+
+.flexitem{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexsec{
+    flex: 1;
+    
 }
 
 footer {
@@ -74,7 +102,7 @@ footer {
   font-size: 15px;
   padding-top: 10px;
   padding-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   border-left: #2196f3 solid 8px;
