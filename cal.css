@@ -36,17 +36,16 @@ header {
   background-color: #d3c8b6;
   height: 450px;
   margin: auto;
-  padding: 40px 20px 5px 10px;
   width: 400px;
+  padding: 40px 20px 5px 10px;
   border-radius: 2rem;
   border: #000000 solid 10px;
+  box-sizing: border-box;
 }
 .numbers {
   margin: auto;
   width: 200px;
   /* box-shadow: yellow 5px 2px 3px; */
-  
-  
 }
 
 .button {
@@ -59,39 +58,20 @@ header {
   font-weight: bold;
 }
 
-.button[value="C"]{
-    color: red;
-    margin: 50px;
-    width: 100px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    
+.button[value="C"] {
+  color: red;
+  margin: 50px;
+  width: 100px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
+.aside {
+  color: #f81919;
 
-.aside{ 
-    color: #f81919;
-    
-    /* background-color: #ffffff; */
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-
-.right-container{
-    width: 20px;
-    height: 200px;
-}
-
-.flexitem{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.flexsec{
-    flex: 1;
-    
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer {
@@ -108,6 +88,6 @@ footer {
   border-left: #2196f3 solid 8px;
   border-radius: 5px;
   box-shadow: 2px 5px 15px -1px #f81919 inset;
-font-size: 16px;
+  font-size: 16px;
   font-weight: lighter;
 }
